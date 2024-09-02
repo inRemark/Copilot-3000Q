@@ -1,4 +1,4 @@
-# DevHandbook
+# Copilot-3000Q
 
 <!-- ***
 ![retropie_logo](images/dev-handbook.png)
