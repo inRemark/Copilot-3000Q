@@ -1,0 +1,98 @@
+# Project information
+site_name: 'Copilot-3000Q'
+site_description: 'Github Copilot 3000 Questions'
+site_author: 'InRemark'
+site_url: 'http://inremark.com'
+edit_uri: 'https://github.com/inRemark/Copilot-3000Q.git'
+
+# Repository
+repo_name: 'Copilot-3000Q'
+repo_url: 'https://github.com/inRemark/Copilot-3000Q.git'
+
+# Copyright
+copyright: 'Copyright &copy; 2024 InRemark'
+
+# Plugins
+plugins:
+  - search
+  # - alternate-link
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+        
+
+# Extensions
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - md_in_html
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.keys
+
+# Configuration
+theme:
+  name: 'material'
+  language: zh
+  logo: 'assets/images/logo.svg'
+  favicon: 'assets/images/favicon.png'
+  font: false
+  features:
+    - navigation.top
+    - content.action.edit
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: red
+      primary: red
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+# Custom
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/inRemark/dev-handbook
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/sentisystem
+  # alternate:
+  #   - name: English
+  #     link: /en/ 
+  #     lang: en
+  #   - name: 简体中文
+  #     link: /zh/
+  #     lang: zh
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+# Google Analytics
+# google_analytics:
+  # - 'UA-XXXXX-X'
+  # - 'auto'
+
+nav:
+  - Home: index.md
+  - Java: 
+    - Java Optional: java/java-optional.md 
+    - Logback level configuration in Springboot: logback/logback.md    
+  - About:
+    - About: about/about.md
+    - Changelogs: about/changelogs.md
+    - FAQ: about/FAQ.md
