@@ -92,6 +92,8 @@ nav:
   - Java: 
     - Java Optional: java/java-optional.md 
     - Logback level configuration in Springboot: logback/logback.md    
+  - Nginx: 
+    - Nginx Configuration: nginx/nginx-configuration.md
   - About:
     - About: about/about.md
     - Changelogs: about/changelogs.md

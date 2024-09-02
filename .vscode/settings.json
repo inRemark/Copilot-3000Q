@@ -6,6 +6,7 @@
         "pymdownx",
         "retropie",
         "Springboot",
-        "superfences"
+        "superfences",
+        "yourdomain"
     ]
 }

@@ -11,6 +11,10 @@
 * [Java Optional](java/java-optional.md)
 * [Springboot logback config](logback/logback.md)
 
+## [Nginx](nginx)
+
+* [Nginx domain redirect](nginx/nginx-domain-redirect.md)
+
 ## [ABOUT](about/about.md)
 
 * [About](about/about.md)
