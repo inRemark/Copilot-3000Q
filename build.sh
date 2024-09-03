@@ -11,4 +11,4 @@ pip3 install mkdocs-material
 pip3 install mkdocs-static-i18n
 
 # 构建 MkDocs 项目
-mkdocs build -d site
+mkdocs build
