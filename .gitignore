@@ -17,3 +17,4 @@ _book
 site
 *.DS_Store
 rsync.sh
+build.sh
