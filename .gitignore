@@ -16,3 +16,4 @@ _book
 *.pdf
 site
 *.DS_Store
+rsync.sh
