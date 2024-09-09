@@ -1,7 +1,7 @@
 # Project information
 site_name: 'Copilot-3000Q'
 site_description: 'Github Copilot 3000 Questions'
-site_author: 'InRemark'
+site_author: 'inRemark'
 site_url: 'http://inremark.com'
 edit_uri: 'https://github.com/inRemark/Copilot-3000Q.git'
 
@@ -68,9 +68,9 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/inRemark/dev-handbook
+      link: 'https://github.com/inRemark/Copilot-3000Q'
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/sentisystem
+      link: https://twitter.com/youdayly
   # alternate:
   #   - name: English
   #     link: /en/ 
@@ -90,6 +90,7 @@ extra_css:
 nav:
   - Home: index.md
   - Java: 
+    - Java工具命令: java/java-command.md
     - Java Optional: java/java-optional.md 
     - Logback level configuration in Springboot: logback/logback.md    
   - Nginx: 

@@ -4,6 +4,7 @@
 
 ## [JAVA](java/index.md)
 
+* [Java工具命令](java/java-command)
 * [Java Optional](java/java-optional.md)
 * [Springboot logback config](logback/logback.md)
 

@@ -1,12 +1,30 @@
 {
     "cSpell.words": [
         "fontawesome",
+        "gcutil",
+        "genkeypair",
+        "histo",
+        "javac",
+        "javadoc",
+        "javap",
+        "jcmd",
+        "jinfo",
+        "jmap",
+        "jstack",
+        "jstat",
+        "jstatd",
+        "keyalg",
+        "keytool",
         "Logback",
+        "mykey",
+        "mykeystore",
         "pygments",
         "pymdownx",
         "retropie",
         "Springboot",
         "superfences",
+        "TMDA",
+        "vmid",
         "yourdomain"
     ]
 }
