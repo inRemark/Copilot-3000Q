@@ -15,6 +15,7 @@
 ## [Nginx](nginx)
 
 * [Nginx domain redirect](nginx/nginx-domain-redirect.md)
+* [Nginx and browser caching strategy](nginx/nginx-browser-caching-strategy)
 
 ## [ABOUT](about/about.md)
 
